@@ -1,0 +1,27 @@
+[
+  {
+    "link" : {
+      "url" : "NewProgram.html",
+      "title" : "Add New Program"
+    },
+    "linkType" : "Local Link",
+    "sortOrder" : 3,
+    "level" : 1,
+    "question" : "How To Enter New Program",
+    "answer" : "Follow the link below to see instructions for entering a new program."
+  },
+  {
+    "question" : "What is my birthdate",
+    "sortOrder" : 1,
+    "level" : 1,
+    "answer" : "October 1, 1969",
+    "linkType" : "none"
+  },
+  {
+    "level" : 1,
+    "sortOrder" : 2,
+    "question" : "How to add a record?",
+    "answer" : "Tap the plus button in the upper right hand corner and choose add new record.",
+    "linkType" : "none"
+  }
+]

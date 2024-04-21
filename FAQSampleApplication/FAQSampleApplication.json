@@ -1,49 +1,49 @@
 [
   {
+    "sortOrder" : 1,
+    "level" : 1,
+    "linkType" : "none",
+    "answer" : "October 1, 1969",
+    "question" : "What is my birthdate"
+  },
+  {
+    "question" : "How to add a record?",
     "level" : 1,
     "sortOrder" : 2,
-    "linkType" : "none",
     "answer" : "Tap the plus button in the upper right hand corner and choose add new record.",
-    "question" : "How to add a record?"
+    "linkType" : "none"
   },
   {
-    "sortOrder" : 4,
     "question" : "New Record Screen",
+    "level" : 1,
+    "sortOrder" : 4,
+    "answer" : "Tap Link Below To See New Program Screen",
     "linkType" : "Local Image",
     "link" : {
-      "title" : "Show Image",
-      "url" : "New Program.PNG"
-    },
-    "level" : 1,
-    "answer" : "Tap Link Below To See New Program Screen"
+      "url" : "New Program.PNG",
+      "title" : "Show Image"
+    }
   },
   {
-    "answer" : "Click link below",
-    "linkType" : "Local Link",
     "question" : "How To See New Program",
+    "linkType" : "Local Link",
+    "answer" : "Click link below",
     "link" : {
-      "url" : "NewProgramHTML",
+      "url" : "AddProgram",
       "title" : "Show Example"
     },
     "level" : 1,
     "sortOrder" : 5
   },
   {
-    "linkType" : "Local Link",
+    "question" : "How To Enter New Program",
+    "sortOrder" : 3,
+    "level" : 1,
+    "answer" : "Follow the link below to see instructions for entering a new program.",
     "link" : {
       "title" : "Add New Program",
       "url" : "NewProgram.html"
     },
-    "sortOrder" : 3,
-    "level" : 1,
-    "question" : "How To Enter New Program",
-    "answer" : "Follow the link below to see instructions for entering a new program."
-  },
-  {
-    "linkType" : "none",
-    "level" : 1,
-    "sortOrder" : 1,
-    "answer" : "October 1, 1969",
-    "question" : "What is my birthdate"
+    "linkType" : "Local Link"
   }
 ]

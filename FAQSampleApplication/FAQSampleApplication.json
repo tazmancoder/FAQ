@@ -1,27 +1,49 @@
 [
   {
-    "link" : {
-      "url" : "NewProgram.html",
-      "title" : "Add New Program"
-    },
+    "answer" : "Click link below",
+    "sortOrder" : 5,
     "linkType" : "Local Link",
-    "sortOrder" : 3,
     "level" : 1,
-    "question" : "How To Enter New Program",
-    "answer" : "Follow the link below to see instructions for entering a new program."
+    "link" : {
+      "url" : "NewProgramHTML",
+      "title" : "Show Example"
+    },
+    "question" : "How To See New Program"
   },
   {
-    "question" : "What is my birthdate",
-    "sortOrder" : 1,
-    "level" : 1,
-    "answer" : "October 1, 1969",
-    "linkType" : "none"
+    "link" : {
+      "title" : "Show Image",
+      "url" : "New Program.PNG"
+    },
+    "answer" : "Tap Link Below To See New Program Screen",
+    "question" : "New Record Screen",
+    "sortOrder" : 4,
+    "linkType" : "Local Image",
+    "level" : 1
   },
   {
     "level" : 1,
     "sortOrder" : 2,
-    "question" : "How to add a record?",
     "answer" : "Tap the plus button in the upper right hand corner and choose add new record.",
-    "linkType" : "none"
+    "linkType" : "none",
+    "question" : "How to add a record?"
+  },
+  {
+    "question" : "What is my birthdate",
+    "level" : 1,
+    "answer" : "October 1, 1969",
+    "linkType" : "none",
+    "sortOrder" : 1
+  },
+  {
+    "answer" : "Follow the link below to see instructions for entering a new program.",
+    "linkType" : "Local Link",
+    "sortOrder" : 3,
+    "link" : {
+      "title" : "Add New Program",
+      "url" : "NewProgram.html"
+    },
+    "question" : "How To Enter New Program",
+    "level" : 1
   }
 ]

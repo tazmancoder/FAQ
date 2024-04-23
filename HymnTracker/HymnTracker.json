@@ -1,10 +1,21 @@
 [
   {
-    "sortOrder" : 1,
+    "question" : "How do I edit a program?",
+    "link" : {
+      "title" : "Edit A Program",
+      "url" : "EditAProgram"
+    },
     "level" : 1,
-    "question" : "How do I create a program?",
-    "linkType" : "Local Link",
+    "sortOrder" : 2,
+    "answer" : "Tap the button below to see instructions for editing a program.",
+    "linkType" : "Local Link"
+  },
+  {
     "answer" : "Tap the link below to see instructions for creating a new program.",
+    "linkType" : "Local Link",
+    "question" : "How do I create a program?",
+    "level" : 1,
+    "sortOrder" : 1,
     "link" : {
       "url" : "AddNewProgram",
       "title" : "Add New Program"

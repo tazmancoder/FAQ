@@ -1,24 +1,35 @@
 [
   {
-    "sortOrder" : 2,
-    "answer" : "Tap the button below to see instructions for editing a program.",
+    "sortOrder" : 1,
+    "question" : "How do I create a program?",
     "linkType" : "Local Link",
+    "answer" : "Tap the link below to see instructions for creating a new program.",
     "link" : {
-      "title" : "Edit A Program",
-      "url" : "EditAProgram"
+      "title" : "Add New Program",
+      "url" : "AddNewProgram"
     },
-    "question" : "How do I edit a program?",
     "level" : 1
   },
   {
-    "link" : {
-      "url" : "AddNewProgram",
-      "title" : "Add New Program"
-    },
-    "answer" : "Tap the link below to see instructions for creating a new program.",
+    "level" : 1,
+    "question" : "Are there other options for a program?",
     "linkType" : "Local Link",
-    "question" : "How do I create a program?",
-    "sortOrder" : 1,
-    "level" : 1
+    "sortOrder" : 3,
+    "link" : {
+      "title" : "Other Program Features",
+      "url" : "OtherProgramFeatures"
+    },
+    "answer" : "Yes, just tap the link below to see instructions on those features."
+  },
+  {
+    "question" : "How do I edit a program?",
+    "level" : 1,
+    "sortOrder" : 2,
+    "linkType" : "Local Link",
+    "answer" : "Tap the button below to see instructions for editing a program.",
+    "link" : {
+      "title" : "Edit A Program",
+      "url" : "EditAProgram"
+    }
   }
 ]

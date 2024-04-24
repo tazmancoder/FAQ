@@ -1,35 +1,46 @@
 [
   {
-    "sortOrder" : 1,
-    "question" : "How do I create a program?",
-    "linkType" : "Local Link",
-    "answer" : "Tap the link below to see instructions for creating a new program.",
-    "link" : {
-      "title" : "Add New Program",
-      "url" : "AddNewProgram"
-    },
-    "level" : 1
-  },
-  {
+    "answer" : "Yes, just tap the link below to see instructions on those features.",
+    "sortOrder" : 3,
     "level" : 1,
     "question" : "Are there other options for a program?",
     "linkType" : "Local Link",
-    "sortOrder" : 3,
     "link" : {
-      "title" : "Other Program Features",
-      "url" : "OtherProgramFeatures"
-    },
-    "answer" : "Yes, just tap the link below to see instructions on those features."
+      "url" : "OtherProgramFeatures",
+      "title" : "Other Program Features"
+    }
   },
   {
+    "level" : 1,
+    "sortOrder" : 1,
+    "answer" : "Tap the link below to see instructions for creating a new program.",
+    "question" : "How do I create a program?",
+    "linkType" : "Local Link",
+    "link" : {
+      "title" : "Add New Program",
+      "url" : "AddNewProgram"
+    }
+  },
+  {
+    "answer" : "Tap the button below to see instructions for editing a program.",
     "question" : "How do I edit a program?",
     "level" : 1,
     "sortOrder" : 2,
     "linkType" : "Local Link",
-    "answer" : "Tap the button below to see instructions for editing a program.",
     "link" : {
-      "title" : "Edit A Program",
-      "url" : "EditAProgram"
+      "url" : "EditAProgram",
+      "title" : "Edit A Program"
     }
+  },
+  {
+    "sortOrder" : 4,
+    "linkType" : "Local Link",
+    "question" : "Can I see information about each hymn?",
+    "link" : {
+      "url" : "LibraryView",
+      "title" : "Hymn Information"
+    },
+    "answer" : "Yes, you can tap the link below to see a page that will describe what type of information you can see and what that would look like in the app.",
+    "level" : 1
   }
 ]

@@ -1,46 +1,57 @@
 [
   {
     "answer" : "Yes, just tap the link below to see instructions on those features.",
-    "sortOrder" : 3,
-    "level" : 1,
-    "question" : "Are there other options for a program?",
     "linkType" : "Local Link",
+    "sortOrder" : 3,
     "link" : {
-      "url" : "OtherProgramFeatures",
-      "title" : "Other Program Features"
-    }
+      "title" : "Other Program Features",
+      "url" : "OtherProgramFeatures"
+    },
+    "question" : "Are there other options for a program?",
+    "level" : 1
   },
   {
     "level" : 1,
-    "sortOrder" : 1,
+    "sortOrder" : 2,
+    "link" : {
+      "title" : "Edit A Program",
+      "url" : "EditAProgram"
+    },
+    "answer" : "Tap the button below to see instructions for editing a program.",
+    "linkType" : "Local Link",
+    "question" : "How do I edit a program?"
+  },
+  {
+    "question" : "Can I see information about each hymn?",
+    "level" : 1,
+    "linkType" : "Local Link",
+    "sortOrder" : 4,
+    "answer" : "Yes, you can tap the link below to see a page that will describe what type of information you can see and what that would look like in the app.",
+    "link" : {
+      "url" : "LibraryView",
+      "title" : "Hymn Information"
+    }
+  },
+  {
+    "linkType" : "Local Link",
+    "question" : "How do I email my sacrament programs?",
+    "answer" : "Tap the link below to see instructions for emailing your programs.",
+    "sortOrder" : 5,
+    "level" : 1,
+    "link" : {
+      "url" : "EmailPrograms",
+      "title" : "Email Programs"
+    }
+  },
+  {
     "answer" : "Tap the link below to see instructions for creating a new program.",
-    "question" : "How do I create a program?",
     "linkType" : "Local Link",
     "link" : {
       "title" : "Add New Program",
       "url" : "AddNewProgram"
-    }
-  },
-  {
-    "answer" : "Tap the button below to see instructions for editing a program.",
-    "question" : "How do I edit a program?",
-    "level" : 1,
-    "sortOrder" : 2,
-    "linkType" : "Local Link",
-    "link" : {
-      "url" : "EditAProgram",
-      "title" : "Edit A Program"
-    }
-  },
-  {
-    "sortOrder" : 4,
-    "linkType" : "Local Link",
-    "question" : "Can I see information about each hymn?",
-    "link" : {
-      "url" : "LibraryView",
-      "title" : "Hymn Information"
     },
-    "answer" : "Yes, you can tap the link below to see a page that will describe what type of information you can see and what that would look like in the app.",
-    "level" : 1
+    "level" : 1,
+    "question" : "How do I create a program?",
+    "sortOrder" : 1
   }
 ]

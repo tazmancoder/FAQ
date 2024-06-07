@@ -1,35 +1,46 @@
 [
   {
-    "question" : "How do I use the Contacts View?",
-    "level" : 1,
-    "answer" : "Please tap the link below to see information about this view.",
-    "sortOrder" : 2,
-    "linkType" : "Local Link",
-    "link" : {
-      "url" : "ContactsView",
-      "title" : "Contacts View"
-    }
-  },
-  {
-    "answer" : "Please tap the link below to see information about this view.",
     "linkType" : "Local Link",
     "link" : {
       "title" : "Events View",
       "url" : "EventsView"
     },
-    "level" : 1,
     "sortOrder" : 1,
-    "question" : "How do I use the Events View?"
+    "question" : "How do I use the Events View?",
+    "answer" : "Tap the link below to see information about this view.",
+    "level" : 1
   },
   {
-    "answer" : "Please tap the link below to see information about this view.",
-    "level" : 1,
-    "question" : "How do I use the Calendar View?",
-    "linkType" : "Local Link",
+    "sortOrder" : 3,
+    "answer" : "Tap the link below to see information about this view.",
     "link" : {
       "title" : "Calendar View",
       "url" : "CalendarView"
     },
-    "sortOrder" : 3
+    "level" : 1,
+    "linkType" : "Local Link",
+    "question" : "How do I use the Calendar View?"
+  },
+  {
+    "sortOrder" : 4,
+    "link" : {
+      "title" : "Add Contacts",
+      "url" : "AddContacts"
+    },
+    "level" : 1,
+    "answer" : "Tap the link below to see instructions on the different ways to add contacts.",
+    "question" : "How do I add contacts?",
+    "linkType" : "Local Link"
+  },
+  {
+    "answer" : "Tap the link below to see information about this view.",
+    "sortOrder" : 2,
+    "level" : 1,
+    "link" : {
+      "title" : "Contacts View",
+      "url" : "ContactsView"
+    },
+    "question" : "How do I use the Contacts View?",
+    "linkType" : "Local Link"
   }
 ]

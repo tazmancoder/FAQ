@@ -1,9 +1,55 @@
 [
   {
     "level" : 1,
-    "answer" : "It helps you enter all hymns for each sacrament program in an easy to use interface. By keeping track of all sacrament meeting hymns you'll be able to see when a particular hymn was sung and what its been sung for.",
-    "linkType" : "none",
+    "answer" : "This app helps you track hymns sung over time and create sacrament meeting programs. It keeps a history of which hymns have been sung and when, helping you plan future meetings and ensure variety in your hymn selections.",
+    "question" : "What is this app and what does it do?",
     "sortOrder" : 1,
-    "question" : "What does this app do?"
+    "linkType" : "none"
+  },
+  {
+    "level" : 1,
+    "answer" : "This app is designed for music coordinators, bishopric members, and anyone responsible for planning hymns for sacrament meetings in LDS wards and branches.",
+    "question" : "Who is this app designed for?",
+    "sortOrder" : 2,
+    "linkType" : "none"
+  },
+  {
+    "level" : 1,
+    "answer" : "No, the application requires an internet connection to download the list of hymns and to transmit PDF reports.",
+    "question" : "Does this app work offline?",
+    "sortOrder" : 3,
+    "linkType" : "none"
+  },
+  {
+    "level" : 1,
+    "answer" : "The app automatically records each hymn when you add it to a sacrament meeting program, creating a searchable history that shows when each hymn was last sung.",
+    "question" : "How does the hymn tracking work?",
+    "sortOrder" : 4,
+    "linkType" : "none"
+  },
+  {
+    "level" : 1,
+    "answer" : "Yes, by navigating to the library and searching for the desired hymn. Tap on the hymn to open its detailed information page. Within this view, you'll find a section called 'Hymn Stats' which displays how many times the hymn has been used, its percentage by usage type, the last 4 programs the hymn was used in and it usage frequency.",
+    "question" : "Can I see when a specific hymn was last sung?",
+    "sortOrder" : 5,
+    "linkType" : "none"
+  },
+  {
+    "level" : 1,
+    "answer" : "Yes, you can manually add past sacrament meeting programs to build your hymn history, or import them from another user. To import, you’ll need a backup JSON file containing the programs. The app will automatically compare the data and import only those programs that haven’t already been added, preventing duplicates.",
+    "question" : "Can I import my existing hymn history?",
+    "sortOrder" : 6,
+    "linkType" : "none"
+  },
+  {
+    "link" : {
+      "url" : "PlayAudioHomeTab.mp4",
+      "title" : "Play Video"
+    },
+    "level" : 1,
+    "answer" : "Tap button below to see a video on how to do this.",
+    "question" : "How do I play audio from the Home tab?",
+    "sortOrder" : 7,
+    "linkType" : "Local Video"
   }
 ]

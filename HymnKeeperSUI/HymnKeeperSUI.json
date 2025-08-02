@@ -1,55 +1,123 @@
 [
   {
-    "level" : 1,
-    "answer" : "This app helps you track hymns sung over time and create sacrament meeting programs. It keeps a history of which hymns have been sung and when, helping you plan future meetings and ensure variety in your hymn selections.",
     "question" : "What is this app and what does it do?",
+    "answer" : "Tap 'View Info' below to find out more information.",
     "sortOrder" : 1,
-    "linkType" : "none"
-  },
-  {
-    "level" : 1,
-    "answer" : "This app is designed for music coordinators, bishopric members, and anyone responsible for planning hymns for sacrament meetings in LDS wards and branches.",
-    "question" : "Who is this app designed for?",
-    "sortOrder" : 2,
-    "linkType" : "none"
-  },
-  {
-    "level" : 1,
-    "answer" : "No, the application requires an internet connection to download the list of hymns and to transmit PDF reports.",
-    "question" : "Does this app work offline?",
-    "sortOrder" : 3,
-    "linkType" : "none"
-  },
-  {
-    "level" : 1,
-    "answer" : "The app automatically records each hymn when you add it to a sacrament meeting program, creating a searchable history that shows when each hymn was last sung.",
-    "question" : "How does the hymn tracking work?",
-    "sortOrder" : 4,
-    "linkType" : "none"
-  },
-  {
-    "level" : 1,
-    "answer" : "Yes, by navigating to the library and searching for the desired hymn. Tap on the hymn to open its detailed information page. Within this view, you'll find a section called 'Hymn Stats' which displays how many times the hymn has been used, its percentage by usage type, the last 4 programs the hymn was used in and it usage frequency.",
-    "question" : "Can I see when a specific hymn was last sung?",
-    "sortOrder" : 5,
-    "linkType" : "none"
-  },
-  {
-    "level" : 1,
-    "answer" : "Yes, you can manually add past sacrament meeting programs to build your hymn history, or import them from another user. To import, you’ll need a backup JSON file containing the programs. The app will automatically compare the data and import only those programs that haven’t already been added, preventing duplicates.",
-    "question" : "Can I import my existing hymn history?",
-    "sortOrder" : 6,
-    "linkType" : "none"
-  },
-  {
+    "linkType" : "Local Link",
     "link" : {
-      "url" : "PlayAudioHomeTab.mp4",
+      "url" : "HymnKeeperSUIAboutHTML",
+      "title" : "View Info"
+    },
+    "level" : 1
+  },
+  {
+    "question" : "How do I create a new program?",
+    "answer" : "Tap 'Play Video' below to find out how.",
+    "sortOrder" : 1,
+    "linkType" : "Local Video",
+    "link" : {
+      "url" : "CreateNewProgram.mp4",
       "title" : "Play Video"
     },
-    "level" : 1,
-    "answer" : "Tap button below to see a video on how to do this.",
-    "question" : "How do I play audio from the Home tab?",
-    "sortOrder" : 7,
-    "linkType" : "Local Video"
+    "level" : 2
+  },
+  {
+    "question" : "How do I edit a program?",
+    "answer" : "Tap 'Play Video' below to find out how.",
+    "sortOrder" : 2,
+    "linkType" : "Local Video",
+    "link" : {
+      "url" : "EditAProgram.mp4",
+      "title" : "Play Video"
+    },
+    "level" : 2
+  },
+  {
+    "question" : "How do I email programs?",
+    "answer" : "Tap 'Play Video' below to find out how.",
+    "sortOrder" : 3,
+    "linkType" : "Local Video",
+    "link" : {
+      "url" : "EmailPrograms.mp4",
+      "title" : "Play Video"
+    },
+    "level" : 2
+  },
+  {
+    "question" : "How do I listen to a hymns MP3 audio file?",
+    "answer" : "Tap 'Play Video' below to find out how.",
+    "sortOrder" : 4,
+    "linkType" : "Local Video",
+    "link" : {
+      "title" : "Play Video",
+      "url" : "PlayHymnAudio.mp4"
+    },
+    "level" : 2
+  },
+  {
+    "question" : "How do I view a hymns information?",
+    "answer" : "Tap 'Play Video' below to find out how.",
+    "sortOrder" : 5,
+    "linkType" : "Local Video",
+    "link" : {
+      "title" : "Play Video",
+      "url" : "ViewHymnInfo.mp4"
+    },
+    "level" : 2
+  },
+  {
+    "question" : "How do I view a hymns sheet music?",
+    "answer" : "Tap 'Play Video' below to find out how.",
+    "sortOrder" : 6,
+    "linkType" : "Local Video",
+    "link" : {
+      "url" : "ViewHymnPDF.mp4",
+      "title" : "Play Video"
+    },
+    "level" : 2
+  },
+  {
+    "question" : "How do I create a new program?",
+    "answer" : "Tap 'View Info' below to view the instructions.",
+    "sortOrder" : 2,
+    "linkType" : "Local Link",
+    "link" : {
+      "title" : "View Info",
+      "url" : "CreateNewProgram"
+    },
+    "level" : 1
+  },
+  {
+    "question" : "How do I edit a program?",
+    "answer" : "Tap 'View Info' below to view the instructions.",
+    "sortOrder" : 3,
+    "linkType" : "Local Link",
+    "link" : {
+      "title" : "View Info",
+      "url" : "EditAProgram"
+    },
+    "level" : 1
+  },
+  {
+    "question" : "How do I email a list of programs?",
+    "answer" : "Tap 'View Info' below to view the instructions.",
+    "sortOrder" : 4,
+    "linkType" : "Local Link",
+    "link" : {
+      "title" : "View Info",
+      "url" : "EmailYourPrograms"
+    },
+    "level" : 1
+  },
+  {
+    "question" : "How do I listen to the MP3 for a hymn?",
+    "answer" : "Tap 'View Info' below to view the instructions.",
+    "sortOrder" : 5,
+    "linkType" : "Local Link",
+    "link" : {
+      "title" : "View Info",
+      "url" : "ListenToMP3"
+    },
+    "level" : 1
   }
 ]
